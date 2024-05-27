@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   auth:
-    build: git://github.com/dg-delbank/auth.git
+    build: https://github.com/dg-delbank/auth.git
     ports:
       - "4000:4000"
     depends_on:
